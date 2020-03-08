@@ -13,6 +13,7 @@ def batch_badge_creator(array)
  return batch_messages
 end
 
+<<<<<<< HEAD
 def assign_rooms(speakers)
    array = []
      room = 1
@@ -30,3 +31,12 @@ def printer(attendees)
      puts array
    end
  end
+=======
+def assign_rooms(array)
+ array.each.with_index(1) do |name,number|
+ puts "Hello, #{name}! You'll be assigned to room #{number}!"
+ array.print do 
+ end
+ return room_assignments
+end
+>>>>>>> 0d10718b6d97d2a2b72e0c47de011fe97d25f71b
